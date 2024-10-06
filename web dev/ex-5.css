@@ -1,0 +1,31 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    /* padding: 30px; */
+    
+}
+
+.logo{
+    align-self: flex-start;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    height: 50px;
+}
+
+.in{
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr
+    
+    1fr 1fr 1fr
+    1fr 1fr 1fr;
+}

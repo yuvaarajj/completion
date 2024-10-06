@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    padding: 20px;
+}
+nav{
+    background-color: rgb(220, 124, 220);
+    border: 2px solid purple;
+    position: sticky;
+    top: 0;
+
+}
+article{
+    background-color: green;
+    height: 800px;
+}
+
+.inside{
+    display: flex;
+
+}
+
+aside{
+    background-color: pink;
+    height: 500px;
+    width: 290px;
+    margin: 30px;
+}
+
+.sec{
+    background-color: skyblue;
+}
+
+p{
+      border: 2px solid;
+padding: 20px 90px;
+border-radius: 20px;  
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ssp{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 120px;
+    color: aqua;
+}
