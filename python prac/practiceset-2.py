@@ -1,32 +1,33 @@
 # Q - 1
 
-# a = 1
-# b = 2
-# print(a + b)
+a = int(input())
+b = int(input())
+print(a + b)
 
 # Q - 2
 
-# z = 5
-# print(2%z)
+z = 3
+c = int(input())
+print(c//z)
 
 # Q - 3
 
-# q = input()
-# print(type(q))
+d = input()
+print(type(d))
 
 # Q - 4
 
-# a = 34
-# b = 80
-# print(a > b)
+f = 34
+g = 80
+print(f > g)
 
 # Q - 5
 
-# a = int(input())
-# b = int(input())
-# print(a + b / 2)
+q = int(input())
+r = int(input())
+print((q + r)/2)
 
 # Q - 6
 
-a = int(input())
-print(a ** 2)
+s = int(input())
+print(s * s)

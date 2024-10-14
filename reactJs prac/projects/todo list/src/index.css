@@ -1,0 +1,14 @@
+.col{
+  display: flex;
+  padding: 5px 70px;
+  justify-content: center;
+}
+
+p{
+  min-width: 170px;
+  text-align: left;
+
+}
+input{
+  margin: 10px;
+}
