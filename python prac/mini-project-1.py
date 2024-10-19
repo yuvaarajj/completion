@@ -16,6 +16,13 @@ elif (random_number == 2):
     if(player_input == "water"):
         print("draw as Computer also choose \"water\"")
     elif(player_input == "snake"):
-        print("computer win as Computer choose \"gun\"")
+        print("computer win as Computer choose \"water\"")
     elif(player_input == "gun"):
-        print("player win as Computer choose \"gun\"")
+        print("computer win as Computer choose \"water\"")
+elif (random_number == 3):
+    if(player_input == "water"):
+        print("computer win as Computer choose \"snake\"")
+    elif(player_input == "snake"):
+        print("draw as Computer also choose \"snake\"")
+    elif(player_input == "gun"):
+        print("player win as Computer choose \"snake\"")
