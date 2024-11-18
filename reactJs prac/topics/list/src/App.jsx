@@ -1,12 +1,28 @@
 import List from "./components/listitems";
-import './App.css'
+import "./App.css";
+import { useState } from "react";
 
-let App = () => {
-  let listitems = ["Apples", "Bananas", "Oranges", "Grapes", "pineapple"];
+function App () {
+  let [listitems, setlistitems] = useState([
+
+    "Apples", "Bananas", "Oranges", "Grapes", "pineapple"
+  ])
+  
+
+ let addd = event => {
+  if(event.key === "Enter"){
+    let new_value = event.target.value
+    let new_items = [...listitems, new_value]
+    setlistitems(new_items)
+    event.target.value = ""
+  }
+    
+  };
+
   return (
     <div className="main">
       <h1 className="title">List Items</h1>
-      <input className="input" type="text" />
+      <input onKeyDown={addd} className="input" type="text" />
       <ul className="list">
         <List items={listitems}></List>
       </ul>

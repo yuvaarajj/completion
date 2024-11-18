@@ -8,7 +8,7 @@
 # Q - 2
 
 def game():
-    ffile = open("score.txt")
+    ffile = open("practice set-5.py")
     value = ffile.readlines()
     print(value)
     
