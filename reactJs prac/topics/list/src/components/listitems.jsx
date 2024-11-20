@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const List = props => {
-//   const { items } = props;
+  const { items } = props;
 
 change = (item, event) =>{
 let [allitems, setallitems] = useState([])
