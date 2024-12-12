@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Bag</title>
+    
+</head>
+<body>
+    <div>
+        <button onclick='bagItems += 1;
+        document.querySelector("#noof").innerText = `Your Bag has ${bagItems} items.`'>Add to Bag</button>
+        <button onclick='bagItems -= 1;
+        document.querySelector("#noof").innerText = `Your Bag has ${bagItems} items.`'>MOVE TO WISHLIST</button>
+        <button onclick='bagItems += 2;
+        document.querySelector("#noof").innerText = `Your Bag has ${bagItems} items.`'>Add 1+1 Sale Item</button>
+    </div>
+    <p id="noof"></p>
+    <script>
+        let bagItems = 0;
+
+add = () => {
+    bagItems += 1
+}
+
+        document.querySelector('#noof').innerText = `Your Bag has ${bagItems} items.`
+    </script>
+</body>
+</html>
